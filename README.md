@@ -1,28 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
+# Random Fact Fetcher
 
-    <h1>Random Fact Fetcher</h1>
+This is a simple web application that fetches random facts from an API and displays them on a webpage.
 
-    <p>This is a simple web application that fetches random facts from an API and displays them on a webpage.</p>
+## How to Use
 
-    <h2>How to Use</h2>
+1. Click the "Get Random Fact" button.
+2. The fetched fact will appear in the middle of the screen.
 
-    <ol>
-        <li>Click the "Get Random Fact" button.</li>
-        <li>The fetched fact will appear in the middle of the screen.</li>
-    </ol>
+## Screenshots
 
-    <p> Screenshots, before and after API request:</p> 
+Before API Request:
+![Screenshot 1](https://github.com/Arush223/CSFEWeek2/assets/115517528/b37e45d2-65a0-4471-81ee-95e28bcb9c5e)
 
-    ![Screenshot 2024-02-20 152651](https://github.com/Arush223/CSFEWeek2/blob/main/assets/115517528/52679b06-f26e-4b4f-b2b4-c13d0b8074de.png)
-    ![Screenshot 2024-02-20 152659](https://github.com/Arush223/CSFEWeek2/blob/main/assets/115517528/81b4950b-78b9-48c9-b295-31277f2ffcda.png)
 
-    <p>Created by Aarush Jagtap in 2024.</p>
+After API Request:
+![Screenshot 2](https://github.com/Arush223/CSFEWeek2/assets/115517528/e731220f-0c83-45ad-901a-820c2bf5708f)
 
-</body>
-</html>
+
+## Author
+
+Created by Aarush Jagtap in 2024.
