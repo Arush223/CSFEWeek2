@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resources/style.css">
+    <title>JavaScript API Fetch</title>
+</head>
+<body>
+    
+    <h1>Random Facts!</h1>
+    <button id="btn">Get Random Fact</button>
+    <div id="output"></div>
+    <script>
+        document.getElementById('btn').addEventListener('click', getRandomFact);
+
+        function getRandomFact() {
+            fetch('https://uselessfacts.jsph.pl/random.json?language=en')
+            .then((res) => res.json())
+            .then((data) => {
+                let output = '';
+                output += `
+                    <div>
+                        <h3>${data.text}</h3>
+                    </div>
+                `;
+                document.getElementById('output').innerHTML = output;
+            })
+            .catch((err) => console.log(err));
+        }
+    </script>
+
+    <footer>
+        <h2>@2024 Aarush Jagtap</h2>
+    </footer>
+</body>
+</html>
